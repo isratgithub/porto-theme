@@ -1,0 +1,45 @@
+.topbar{
+    border-top: 4px solid #08c;
+    background-color: #f7f7f7;
+    @include clearfix;
+    padding: 10px;
+    .topbar-contact{
+        width:50%;
+        float: left;
+
+        ul{
+            
+            text-align: left;
+            li{
+                display: inline-block;
+                padding: 0px 5px;
+                font-size: 14px;
+               
+               
+                
+            }
+        }
+    }
+    .topbar-socialIcon{
+        width:50%;
+        float: left;
+
+        ul{
+            text-align:right;
+            li{
+                display: inline-block;
+                font-size: 20px;
+                padding:0px 10px;
+                
+
+                a{
+                    color:#333;
+                    &:hover{
+                        color:orange;
+                    }
+                }
+            }
+        }
+    }
+    
+}
